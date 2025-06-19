@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f0e6;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  width: 90%;
+  max-width: 600px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #7d57a0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.secondary {
+  background-color: #bbb;
+  color: #333;
+  margin-left: 0.5rem;
+}
+
+button:hover,
+button:focus {
+  background-color: #9b72c6;
+}
+
+.hidden {
+  display: none;
+}
+
+#chosenCard {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#history {
+  margin-top: 2rem;
+}
+
+#historyList {
+  list-style: none;
+  padding-left: 0;
+}

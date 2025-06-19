@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarot da Day</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔮 Tarot da Day 🔮</h1>
+    <select id="language">
+      <option value="pt" selected>Português</option>
+      <option value="en">English</option>
+    </select>
+  </header>
+  <main>
+    <section id="draw">
+      <button id="drawButton">Revelar Carta</button>
+      <button id="clearButton" class="secondary">Limpar Histórico</button>
+    </section>
+    <section id="chosenCard" class="hidden">
+      <h2 id="cardName"></h2>
+      <p id="cardMeaning"></p>
+    </section>
+    <section id="history">
+      <h3>Histórico</h3>
+      <ul id="historyList"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
